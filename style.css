@@ -228,3 +228,17 @@ body:has(.about-grid) main.shell > .about-grid:first-child{
     font-size:30px !important;
   }
 }
+
+
+/* Homepage Letter V. = same size as Latest letters */
+body .hero h1{
+  font-size:42px !important;
+  line-height:1 !important;
+  letter-spacing:-.035em !important;
+  white-space:nowrap !important;
+}
+@media(max-width:560px){
+  body .hero h1{
+    font-size:42px !important;
+  }
+}

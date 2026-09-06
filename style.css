@@ -208,3 +208,23 @@ body .hero h1{
     font-size:15px !important;
   }
 }
+
+
+/* ===== V4 page refinements ===== */
+
+/* Letters archive page title: about half the previous size */
+.letters-page-title h1{
+  font-size:clamp(28px,4vw,55px) !important;
+  line-height:1 !important;
+}
+
+/* About page no longer has a large page-title block */
+body:has(.about-grid) main.shell > .about-grid:first-child{
+  padding-top:72px;
+}
+
+@media(max-width:560px){
+  .letters-page-title h1{
+    font-size:30px !important;
+  }
+}
